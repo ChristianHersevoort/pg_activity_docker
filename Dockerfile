@@ -1,4 +1,4 @@
-FROM "python:alpine3.11"
+FROM "python:alpine3.14"
 
 RUN apk add --no-cache libpq  && \ 
     apk add --virtual .build-deps --no-cache \ 
